@@ -7,7 +7,7 @@ public class GoogleBillboard {
   		while(isPrime(Double.parseDouble(e.substring(i,i+10)))==false){
   			i++;
  		}
-		System.out.println(e.substring(i,i+10));
+		System.out.println(Double.parsedouble(e.substring(i,i+10)));
 	}
 	
 
